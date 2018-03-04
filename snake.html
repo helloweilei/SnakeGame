@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+<div id="container">
+    <div id="playground">
+    </div>
+    <div id="score-panel">
+        <div id="info">
+            <p>SCORE: <span id="score"></span></p>
+            <p>TIME : <span id="time"></span> sec</p>
+            <p id="tips">
+                [P] Pause <br>
+                [C] Continue <br>
+                [Q] Quit <br>
+                [S] Restart <br>
+            </p>
+        </div>
+        <div id="logo">
+            <img src="img/2.gif" alt="">
+        </div>
+    </div>
+</div>
+<div id="game-over">
+    <p>
+        GAME OVER! <br>
+        SCORE: <span id="final-score"></span> <br>
+        <button>TRY AGAIN[<u>S</u>]</button>
+        <br>
+    </p>
+</div>
+<div id="game-start">
+    <p class="count"></p>
+</div>
+<script src="class.js"></script>
+<script src="snake.js"></script>
+</body>
+</html>
